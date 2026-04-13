@@ -1,0 +1,29 @@
+services:
+  #PHP Service
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    #    image: node:18-alpine
+    container_name: frontend-component
+    restart: unless-stopped
+    tty: true
+    environment:
+      SERVICE_NAME: app
+      SERVICE_TAGS: dev
+    working_dir: /var/www/html/
+    networks:
+      - app-network
+    ports:
+      - '8083:8081'
+      - '4175:8081'
+    volumes:
+      - ./:/var/www/html
+    #      - /var/www/html/node_modules
+#    command: [ 'npm', 'run', 'dev' ]
+    command: [ "tail", "-f", "/dev/null" ]
+
+#Docker Networks
+networks:
+  app-network:
+    driver: bridge

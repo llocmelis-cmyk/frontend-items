@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color__pure-white: #f6f6f6;
+    --color__white: #f6f6f6;
+    --color__grey: #666666;
+    --color__grey-light: #e2e1e1;
+    --color__black: #334a5b;
+    --color__red: #ff5043;
+    --color__red-light: #f2a39e;
+    --color__green: #49b56d;
+    --color__green-light: #70b088;
+    --color__blue: #41b6e6;
+    --color__blue-light: #a4b7c1;
+    --color__yellow: #ffcd00;
+    --color__cambridge-blue: #a3bfa8;
+    --color__peach: #efc69b;
+    --color__sea-green: #17c3b2;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.pure-white {
+    color: #fff;
+}
+
