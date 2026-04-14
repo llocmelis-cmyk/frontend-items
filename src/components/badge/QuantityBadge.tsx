@@ -12,7 +12,7 @@ export function QuantityBadge({ quantity }: { quantity: number }) {
 
     return (
         <>
-            <span className={`red ml-5 inline-flex items-center rounded-md px-2 py-1 text-lg font-medium  ring-1 ring-inset`}>
+            <span className={`bg-red-50 m-5 inline-flex items-center rounded-md px-5 py-5 text-lg font-medium  ring-1 ring-inset`}>
                 {quantity}
             </span>
         </>

@@ -1,7 +1,7 @@
 {
   "name": "@llocmelis-cmyk/frontend-component",
-  "private": true,
-  "version": "1.0.1",
+  "private": false,
+  "version": "1.0.2",
   "type": "module",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -10,11 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/llocmelis-cmyk/frontend-component.git"
   },
-  "files": [
-    "dist",
-    'src',
-    'node_modules'
-  ],
   "scripts": {
     "dev": "vite",
     "build": "eslint --quiet src/components && tsc && vite build",
