@@ -1,7 +1,7 @@
 {
   "name": "@llocmelis-cmyk/frontend-component",
   "private": false,
-  "version": "1.0.4",
+  "version": "1.0.6",
   "type": "module",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

@@ -12,9 +12,9 @@ export function QuantityBadge({ quantity }: { quantity: number }) {
 
     return (
         <>
-            <span className={`bg-red-500 m-5 p-5`}>
-                {quantity}
-            </span>
+                <span style={{backgroundColor: "red"}}>
+                        {$quantity}
+                    </span>
         </>
     );
 }
